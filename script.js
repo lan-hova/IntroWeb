@@ -99,22 +99,23 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
-      e.preventDefault();
+      //e.preventDefault();
       
       // Simple validation
       const name = document.getElementById('name').value;
       const phone = document.getElementById('phone').value;
       
       if (!name || !phone) {
+        e.preventDefault(); 
         alert('Vui lòng nhập họ tên và số điện thoại');
         return;
       }
       
       // Here you would usually send the data to a server
-      alert('Chúng tôi đã nhận được thông tin của bạn và sẽ liên hệ trong thời gian sớm nhất');
+      // alert('Chúng tôi đã nhận được thông tin của bạn và sẽ liên hệ trong thời gian sớm nhất');
       
       // Reset form
-      contactForm.reset();
+      //contactForm.reset();
     });
   }
   
