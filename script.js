@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const phone = document.getElementById('phone').value;
       
       if (!name || !phone) {
-        e.preventDefault(); 
+        //e.preventDefault(); 
         alert('Vui lòng nhập họ tên và số điện thoại');
         return;
       }
