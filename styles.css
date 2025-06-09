@@ -247,7 +247,7 @@ img {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('images/hero-bg.jpg');
+  background-image: url('images/cnmbg.png');
   background-size: cover;
   background-position: center;
   color: white;
@@ -527,7 +527,7 @@ img {
 
 /* Location Section */
 .location {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/hero-bg1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/cnmbg.png');
   background-size: cover;
   background-position: center;
   color: white;
